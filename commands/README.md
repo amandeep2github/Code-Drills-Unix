@@ -46,3 +46,6 @@ clears with no scrollble console
 
 ## pushd popd
 change to new directory so that can come back using popd
+
+## avoid sudo
+sudo usermod -a -G docker ec2-user
